@@ -16,22 +16,23 @@
   </header>
 
   <h1>Política de privacidad</h1>
-  <p class="fecha">Última actualización: 16 de octubre de 2026</p>
+  <p class="fecha">Última actualización: 23 de octubre de 2026</p>
 
   <div class="caja">
-    <p><strong>En pocas palabras:</strong> Tenlo guarda tus documentos en tu celular. No tenemos servidores, no vemos tus documentos, no hay publicidad y no vendemos ni compartimos nada. Si tú lo activas, se guarda una copia en una carpeta oculta de <strong>tu propio</strong> Google Drive.</p>
+    <p><strong>En pocas palabras:</strong> Tenlo guarda tus documentos en tu celular. No vemos tus documentos, no hay publicidad y no vendemos ni compartimos nada. Si tú lo activas, se guarda una copia en una carpeta oculta de tu propio Google Drive. Solo si tocas "Verificar en SUNAT" en una boleta o factura, sus datos (no la foto) pasan por nuestro servicio Comprobante OK para consultarla en SUNAT.</p>
   </div>
 
   <h2>1. Quién es responsable</h2>
   <p>Tenlo es una app desarrollada en Perú por su desarrollador independiente. Para cualquier consulta sobre tus datos escribe a <a href="mailto:jchaconvillacis@gmail.com">jchaconvillacis@gmail.com</a>.</p>
 
   <h2>2. Qué datos usa la app</h2>
-  <p><strong>Lo que tú guardas.</strong> Los documentos que agregas (PDF o fotos, por ejemplo tu SOAT, DNI, licencia o carnés) y lo que anotas de cada uno: el nombre, el tipo, la fecha de vencimiento, el aviso y, si es de un vehículo, su nombre, tipo y placa.</p>
+  <p><strong>Lo que tú guardas.</strong> Los documentos que agregas (PDF o fotos, por ejemplo tu SOAT, DNI, licencia o carnés) y lo que anotas de cada uno: el nombre, el tipo, la fecha de vencimiento, el aviso y, si es de un vehículo, su nombre, tipo y placa. También los archivos de tus carpetas (boletas, facturas, CV u otros) y, si los anotas, el monto y la fecha de cada boleta y el monto a rendir de la carpeta. El código QR de una boleta se lee dentro de tu celular.</p>
   <p><strong>Cámara (opcional).</strong> Si escaneas un documento, Tenlo usa la cámara para tomar la foto y buscar sus bordes. Todo se hace dentro de tu celular: las fotos no se envían a ningún lado. Si eliges el "Escáner de Google", lo hace el servicio de Google en tu celular (Google Play services) y te devuelve la imagen.</p>
   <p><strong>Archivos y fotos que eliges.</strong> Cuando agregas un PDF o una foto de tu galería, Tenlo solo recibe el archivo que tú eliges y guarda una copia en su espacio privado.</p>
   <p><strong>Tu cuenta de Google (opcional).</strong> Si activas el respaldo con "Entrar con Google", la app recibe tu nombre y tu correo de Google solo para mostrarte qué cuenta está conectada, y usa el permiso <code>drive.appdata</code>: una carpeta oculta que solo Tenlo puede usar dentro de tu Drive. <strong>No puede ver ni tocar tus otros archivos</strong> de Google Drive.</p>
   <p><strong>Bloqueo con huella o PIN (opcional).</strong> La huella la verifica Android: Tenlo no la recibe ni la guarda. El PIN se guarda protegido (convertido en un código que no se puede leer) en el almacenamiento seguro del celular y no sale de él.</p>
   <p><strong>Avisos de vencimiento.</strong> Los programa el propio celular. No pasan por ningún servidor.</p>
+  <p id="sunat"><strong>Verificar boletas y facturas en SUNAT (opcional).</strong> Cuando tocas "Verificar en SUNAT", Tenlo envía a <strong>Comprobante OK</strong> (comprobante-ok.vercel.app, un servicio del mismo desarrollador) los datos de ese comprobante: RUC de quien lo emitió, tipo, serie, número, fecha y monto, junto con una prueba de tu cuenta de Google (nunca tu contraseña). Comprobante OK los consulta en el servicio oficial de SUNAT, te devuelve la respuesta y arma la constancia de validez, que se guarda en tu celular junto a la boleta. Comprobante OK <strong>no guarda</strong> los datos de tus comprobantes, y la foto o el PDF de la boleta nunca salen de tu celular. Para llevar la cuenta de tus consultas, Comprobante OK crea una cuenta con tu correo y tu nombre de Google y guarda tus créditos.</p>
 
   <h2>3. Dónde se guardan</h2>
   <ul>
@@ -39,14 +40,14 @@
     <li><strong>En tu Google Drive</strong>, solo si activas el respaldo: tus documentos y sus datos, en la carpeta oculta de la app. Sirve para recuperarlos si cambias de celular.</li>
     <li>Android también puede incluir los datos de la app en la copia de seguridad de tu cuenta de Google si la tienes activada en tu celular.</li>
   </ul>
-  <p>Tenlo no tiene servidores ni bases de datos propias: el desarrollador <strong>no puede ver</strong> tus documentos.</p>
+  <p>Tenlo no guarda tus documentos en servidores: el desarrollador <strong>no puede ver</strong> tus documentos. Lo único que queda fuera de tu celular y de tu Drive es tu cuenta de Comprobante OK (tu correo, tu nombre y tus créditos), y solo si verificas boletas en SUNAT.</p>
 
   <h2>4. Con quién se comparten</h2>
-  <p>Con nadie. Tenlo no tiene publicidad, analítica ni rastreo, y no vende ni comparte tus datos. Un documento solo sale de la app cuando tú lo compartes (por ejemplo, por WhatsApp), y va a quien tú elijas. Cuando usas el respaldo, tus documentos viajan cifrados (HTTPS) entre tu celular y tu Google Drive, bajo la <a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</p>
+  <p>Tenlo no tiene publicidad, analítica ni rastreo, y no vende tus datos. Un documento solo sale de la app cuando tú lo compartes (por ejemplo, por WhatsApp), y va a quien tú elijas. Cuando usas el respaldo, tus documentos viajan cifrados (HTTPS) entre tu celular y tu Google Drive, bajo la política de privacidad de Google. Cuando verificas una boleta en SUNAT, sus datos viajan cifrados a Comprobante OK y de ahí a SUNAT, solo para consultarla.</p>
   <p>Para recibir las actualizaciones de la app, Tenlo se conecta a los servidores de Expo (expo.dev), que la distribuyen. Esa conexión solo indica la versión de la app y del sistema; no incluye tus documentos.</p>
 
   <h2>5. Seguridad</h2>
-  <p>Tus documentos quedan en el espacio privado de la app, que Android protege de las demás apps. Puedes añadir el bloqueo con huella o PIN. Las conexiones con Google Drive van cifradas.</p>
+  <p>Tus documentos quedan en el espacio privado de la app, que Android protege de las demás apps. Puedes añadir el bloqueo con huella o PIN. Las conexiones con Google Drive y con Comprobante OK van cifradas.</p>
 
   <h2>6. Una copia no reemplaza al original</h2>
   <p>La foto o el PDF de tu DNI u otro documento de identidad guardado en Tenlo es solo una copia para tenerla a mano: no reemplaza al documento original.</p>
@@ -57,6 +58,7 @@
     <li>Al desinstalar Tenlo se borran los documentos de tu celular.</li>
     <li>Para borrar el respaldo: en Google Drive, entra a Configuración › Administrar aplicaciones › Tenlo › Opciones › <em>Borrar datos ocultos de la aplicación</em>.</li>
     <li>Para quitarle a Tenlo el acceso a tu cuenta de Google: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li id="borrar-cuenta"><strong>Para borrar tu cuenta de Comprobante OK</strong>: en Tenlo, entra a Ajustes › Cuenta de Comprobante OK › <em>Borrar mi cuenta de Comprobante OK</em>. Si ya no tienes Tenlo, hazlo en <a href="https://comprobante-ok.vercel.app/eliminar-cuenta">comprobante-ok.vercel.app/eliminar-cuenta</a> entrando con el mismo correo de Google. Se borran al momento tu correo, tu nombre, tus créditos y tus puntos (los créditos no se devuelven). Quedan, sin tu correo, los pagos de créditos que hiciste (registro de ventas: paquete, monto, fecha y número de operación) y una huella cifrada de tu correo para que el regalo de bienvenida no se dé dos veces. Lo que guardaste en Tenlo no se toca.</li>
   </ul>
   <p>También puedes escribirnos a <a href="mailto:jchaconvillacis@gmail.com">jchaconvillacis@gmail.com</a> para ejercer tus derechos de acceso, rectificación, cancelación y oposición (Ley N.° 29733 de Protección de Datos Personales del Perú). Como no guardamos tus documentos en servidores, la mayoría de pedidos se resuelven desde tu propio celular y tu Google Drive.</p>
 
